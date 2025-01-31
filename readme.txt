@@ -11,7 +11,7 @@ Dataset, belirtilen bağlantıdan (https://universe.roboflow.com/objectdetection
 Model Yolu:
 Kodda şu satırda belirtilen path kısmına, best.pt dosyasının tam yolu yazılmalıdır:
 
-model = torch.hub.load('ultralytics/yolov5', 'custom', path='C:\\Users\\cagan\\OneDrive\\Belgeler\\derinogrenme\\yolov5\\runs\\train\\exp2\\weights\\best.pt')
+model = torch.hub.load('ultralytics/yolov5', 'custom', path=<<filepath>>')
 
 Kodun Çalıştırılması:
 Kod çalıştırıldığında kamera açılır ve gerçek zamanlı tespit yapılır. Kod çalışırken çıkış yapmak için q tuşuna basabilirsiniz.
